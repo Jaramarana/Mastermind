@@ -102,7 +102,7 @@ class Board
         system("clear")
         sleep(0.5)
         (0...@codes.length).each do |i|
-            if i == 100
+            if i == 0
                 puts "\r? ? ? ?\t#{@codes[i].displayClue}"
                 puts "-------"
             else
